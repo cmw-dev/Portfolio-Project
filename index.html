@@ -24,7 +24,10 @@
     <link rel="stylesheet" href="/src/styles.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-transparent">
+    <nav
+      class="navbar navbar-expand-lg fixed-top navbar-dark"
+      style="background-color: rgba(20, 12, 46, 0.7)"
+    >
       <div class="container">
         <a class="navbar-brand" href="/">Chelsea Weber</a>
         <button
@@ -38,16 +41,19 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="/about.html">About me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/contact.html">Contact me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/work.html">Work</a>
             </li>
           </ul>
         </div>
@@ -60,37 +66,9 @@
       <div class="button-hero">
         <a href="#" class="btn btn-outline-light">Contact Me</a>
       </div>
+      <i class="fa-solid fa-angles-down"></i>
     </div>
-    <br />
-    <h2 class="project-main">Projects</h2>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-4">
-          <img
-            src="/images/landingpage.png"
-            alt="hubble-landing-page-project"
-            class="img-fluid p-4 rounded border"
-            height="40px"
-          />
-        </div>
-        <div class="col-md-4">
-          <img
-            src="/images/weatherapp.png"
-            alt="weather-forecast-application"
-            class="img-fluid p-4 rounded border"
-            height="40px"
-          />
-        </div>
-        <div class="col-md-4">
-          <img
-            src="/images/dictionaryapp.jpg"
-            alt="dictionary-app-project"
-            class="img-fluid p-4 rounded border"
-            height="40px"
-          />
-        </div>
-      </div>
-    </div>
+
     <br />
 
     <script
