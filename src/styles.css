@@ -29,7 +29,7 @@ h1,
 h2,
 h3 {
   font-family: "Quicksand", sans-serif;
-  color: white;
+  color: var(--primary-color);
 }
 
 p {
@@ -37,6 +37,9 @@ p {
 }
 a {
   text-decoration: none;
+  color: var(--primary-color);
+}
+a:hover {
   color: var(--primary-color);
 }
 
