@@ -66,10 +66,8 @@ h3 {
   text-align: center;
 }
 
-.button-projects {
+.button-homepage {
   display: block;
-  text-align: center;
-  margin-right: 80px;
 }
 
 .row {
@@ -78,12 +76,12 @@ h3 {
   justify-content: space-evenly;
 }
 
-.home-sections {
+.home-section-headers {
   text-align: left;
   padding: 0 0 10px;
   margin-bottom: 8px;
 }
-.home-paragraphs {
+.home-section-paragraphs {
   text-align: left;
   padding: 0;
 }
