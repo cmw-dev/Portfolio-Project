@@ -1,3 +1,8 @@
+:root {
+  --primary-color: white;
+  --secondary-color: #100b2c;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   max-width: 100%;
@@ -20,6 +25,10 @@ h2,
 h3 {
   font-family: "Quicksand", sans-serif;
   color: white;
+}
+
+p {
+  color: var(--primary-color);
 }
 
 .navbar {
@@ -79,6 +88,7 @@ h3 {
 .home-section-headers {
   text-align: left;
   padding: 0 0 10px;
+
   margin-bottom: 8px;
 }
 .home-section-paragraphs {
