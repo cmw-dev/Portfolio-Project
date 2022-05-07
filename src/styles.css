@@ -1,5 +1,5 @@
 :root {
-  --primary-color: rgb(255, 255, 255);
+  --primary-color: rgba(255, 255, 255, 0.85);
   --secondary-color: #100b2c;
   --accent-color: rgba(255, 140, 16);
 }
@@ -22,6 +22,7 @@ h1 {
 
 h2 {
   font-size: 32px;
+  text-align: center;
 }
 
 h3 {
@@ -84,7 +85,7 @@ hr {
   margin: 70px 0;
   margin-bottom: -80px;
   font-size: 28px;
-  color: white;
+  color: var(--primary-color);
 }
 
 .hero {
@@ -100,37 +101,36 @@ hr {
 }
 
 .hero h1 {
-  color: white;
+  color: var(--primary-color);
   text-align: center;
   margin-top: 30px;
   margin-bottom: 10px;
 }
 
 .hero h2 {
-  color: white;
+  color: var(--primary-color);
   text-align: center;
   font-weight: 200;
   padding: 0;
 }
 
-.interior-header {
+.interior-hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
   max-width: 100%;
-  padding: 110px 0;
-  opacity: 0.95;
+  padding: 50px 0;
 }
 
-.interior-header h1 {
-  color: white;
+.interior-hero h1 {
+  color: var(--primary-color);
   text-align: center;
-  margin-top: 30px;
+  margin-top: 60px;
   margin-bottom: 10px;
 }
 
-.interior-header h2 {
-  color: white;
+.interior-hero h2 {
+  color: var(--primary-color);
   text-align: center;
   font-weight: 200;
   padding: 0;
@@ -147,6 +147,10 @@ hr {
 
 .button-homepage {
   display: block;
+}
+
+.button-interior a {
+  padding: 8px 25px;
 }
 
 .button-homepage a {
@@ -169,12 +173,12 @@ hr {
   justify-content: space-evenly;
 }
 
-.home-section-headers {
+.section-headers {
   text-align: left;
   padding: 0 0 10px;
   margin-bottom: 8px;
 }
-.home-section-paragraphs {
+.section-paragraphs {
   text-align: left;
   padding: 0;
 }
@@ -221,11 +225,21 @@ hr {
     text-align: center;
   }
 
-  .home-section-headers {
+  .button-interior {
     text-align: center;
   }
 
-  .home-section-paragraphs p {
+  .button-interior a {
+    padding: 10px 42px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .section-headers {
+    text-align: center;
+  }
+
+  .section-paragraphs p {
     text-align: center;
   }
 }
