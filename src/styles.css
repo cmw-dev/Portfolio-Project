@@ -204,13 +204,19 @@ hr {
 }
 
 @media (max-width: 768px) {
+  .button-hero a {
+    padding: 10px 42px;
+  }
+  .button-homepage {
+    text-align: center;
+  }
   .button-homepage a {
-    display: block;
+    padding: 10px 42px;
     justify-content: center;
     text-align: center;
   }
   .button-contact-section a {
-    display: block;
+    padding: 10px 42px;
     justify-content: center;
     text-align: center;
   }
