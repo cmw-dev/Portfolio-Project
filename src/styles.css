@@ -113,6 +113,29 @@ hr {
   padding: 0;
 }
 
+.interior-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+  padding: 110px 0;
+  opacity: 0.95;
+}
+
+.interior-header h1 {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.interior-header h2 {
+  color: white;
+  text-align: center;
+  font-weight: 200;
+  padding: 0;
+}
+
 .button-hero {
   display: block;
   text-align: center;
