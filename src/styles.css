@@ -207,7 +207,7 @@ hr {
     0 4px 8px rgba(168, 53, 53, 0.06);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 765px) {
   .button-hero a {
     padding: 10px 42px;
   }
