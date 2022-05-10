@@ -153,6 +153,7 @@ hr {
 
 .button-homepage {
   display: block;
+  text-align: center;
 }
 
 .button-interior a {
@@ -177,6 +178,17 @@ hr {
   display: flex;
   margin: 25px 5px 5px;
   justify-content: space-evenly;
+}
+
+.home-section-headers {
+  text-align: center;
+  padding: 0 0 10px;
+  margin-bottom: 8px;
+}
+
+.home-section-paragraphs {
+  text-align: center;
+  padding: 0;
 }
 
 .section-headers {
