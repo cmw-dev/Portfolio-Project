@@ -142,7 +142,9 @@ hr {
   font-weight: 200;
   padding: 0;
 }
-
+.project h2 {
+  text-align: left;
+}
 .button-hero {
   margin: 0 10px;
 }
